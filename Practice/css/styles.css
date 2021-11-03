@@ -1,0 +1,123 @@
+body 
+{
+	background-color: #edf2f7;
+}
+ 
+.container 
+{
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.visuallyhidden
+{
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0,0, 0,0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+header
+{
+	margin-top: 30px;
+	height:327px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 960px;
+}
+
+h1
+{
+	font-size: 125px;
+	font-family: "Arial", Bold;
+	color: #63b3ed ;
+	font-weight: bold;
+}
+
+header h2
+{
+	margin-left: 160px;
+	font-size: 32px;
+	font-family: "Arial";
+	color: #8594ad;
+	line-height: 24px;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-right: 20px;
+}
+
+.subtitle
+{
+	display: flex;
+}
+header p
+{
+	font-size: 24px;
+	background-color: #dd6b20;
+	display: inline-block;
+	padding: 10px;
+	color: #ffffff;
+	line-height: 24px;
+	font-family: "Arial";
+	padding: 10px;
+}
+
+h3
+{
+	color: #68778d;
+	font-family: "Arial";
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+li
+{
+	text-align: center;
+	font-family: "Arial";
+	line-height: 35px;
+	color: #68778d;
+}
+
+img
+{
+	margin-bottom: 35px;
+}
+.contact, .skills, .mywork
+{
+	width: 300px;
+	background-color: #ffffff;
+	padding-bottom: 30px;
+}
+
+.contact, .skills
+{
+	margin-right: 30px;
+}
+
+.body
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 35px;
+}
+
+footer
+{
+	width: 960px;
+	background-color: #ffffff;
+	margin-top: 35px;
+	font-style: italic;
+	font-size: 16px;
+	font-family: "Arial";
+	padding: 20px 0 20px 0px;
+	color: #68778d;
+}
+
+footer p
+{
+	margin-left: 25px;
+}
